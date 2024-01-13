@@ -29,13 +29,32 @@ export const ContactUs = () => {
 
   return (
     <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
+      <div
+        id="contactFormContainer"
+        className="d-flex flex-column justify-content-center align-items-start p-3"
+      >
+        <div className="align-self-center">
+          <img src="/assets/iconEmail.svg" alt="" />
+        </div>
+        <input
+          className="w-50 my-4"
+          type="text"
+          name="user_name"
+          placeholder="Your name"
+        />
+        <input
+          className="w-50 my-4"
+          type="email"
+          name="user_email"
+          placeholder="Your email"
+        />
+        <textarea
+          className="w-75 my-4"
+          name="message"
+          placeholder="Write your message..."
+        />
+        <input className="align-self-start" type="submit" value="Send" />
+      </div>
     </form>
   );
 };
