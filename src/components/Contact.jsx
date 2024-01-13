@@ -10,7 +10,7 @@ function Contact() {
         <ContactUs />
       </div>
 
-      <p>Copyright &copy; {currentYear}</p>
+      <p className="sticky-bottom">&copy; {currentYear} CometByte</p>
     </footer>
   );
 }
