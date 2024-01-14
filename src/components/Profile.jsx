@@ -6,7 +6,7 @@ function Profile() {
       id="profile"
       className="d-flex flex-column flex-xl-row justify-content-around align-items-center pt-4"
     >
-      {" "}
+      {/* 
       <div id="imageContainer" className="pb-0 mb-0 d-block d-xl-none">
         <img
           id="profileImage"
@@ -14,6 +14,7 @@ function Profile() {
           alt="profileImage"
         ></img>
       </div>
+      */}
       <div
         id="profession"
         className="col-12 col-xl-6 d-flex flex-column justify-content-center mt-5"
@@ -39,7 +40,7 @@ function Profile() {
           </div>
         </div>
       </div>
-      <div id="imageContainer" className="pb-0 mb-0 d-none d-xl-block">
+      <div id="imageContainer" className="pb-0 mb-0 d-none d-md-block">
         <img
           id="profileImage"
           src="/assets/profileImage.png"
