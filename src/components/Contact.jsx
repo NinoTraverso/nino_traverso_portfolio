@@ -37,10 +37,10 @@ function Contact() {
           </div>
           <div
             id="infoTextContainer"
-            className="d-flex flex-column justify-content-start align-items.-center"
+            className="d-flex flex-column justify-content-start align-items.-center me-md-5"
           >
-            <h1 className="">ABOUT ME</h1>
-            <h4 className="me-5">
+            <h1 className="text-center">ABOUT ME</h1>
+            <h4 className="text-center">
               I became a full-stack developer because I love bringing to life
               ideas and creating innovative web solutions while tackling new
               challenges daily. I like working on different projects and topics;

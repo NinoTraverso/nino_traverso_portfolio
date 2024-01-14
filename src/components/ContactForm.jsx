@@ -37,23 +37,30 @@ export const ContactUs = () => {
           <img src="/assets/iconEmail.svg" alt="" />
         </div>
         <input
-          className="w-50 my-4"
+          className="inputName w-50 my-4 rounded"
           type="text"
           name="user_name"
-          placeholder="Your name"
+          placeholder="  Your name"
         />
         <input
-          className="w-50 my-4"
+          className="inputEmail w-50 my-4 rounded"
           type="email"
           name="user_email"
-          placeholder="Your email"
+          placeholder="  Your email"
         />
         <textarea
-          className="w-75 my-4"
+          className="inputMessage w-75 my-4 rounded"
           name="message"
-          placeholder="Write your message..."
+          maxLength="500"
+          placeholder="  Write your message..."
         />
-        <input className="align-self-start" type="submit" value="Send" />
+
+        <input
+          id="submitButton"
+          className="align-self-start pt-2 pb-2 px-4 "
+          type="submit"
+          value="Send"
+        />
       </div>
     </form>
   );

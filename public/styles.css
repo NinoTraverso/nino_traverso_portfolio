@@ -30,6 +30,7 @@ body {
   font-weight: 400;
   height: 320px;
   font-size: 180px;
+  color: #6ac954;
 }
 
 .sectionTitleMedium {
@@ -37,17 +38,18 @@ body {
   font-weight: 400;
   height: 320px;
   font-size: 120px;
+  color: #6ac954;
 }
 
 .sectionTitleSmall {
   font-family: "Syncopate", sans-serif;
   font-weight: 400;
   height: 320px;
-  font-size: 20px;
+  font-size: 70px;
+  color: #6ac954;
 }
 
-/*------------------------------------------------------------NAV PROJECTS ----------------------------------------------------*/
-
+/*------------------------------------------------------------NAV PROJECTS----------------------------------------------------*/
 .projectsXl {
   font-family: "Syncopate", sans-serif;
   font-weight: 400;
@@ -65,7 +67,7 @@ body {
   font-weight: 400;
   font-size: 16px;
 }
-/*------------------------------------------------------------NAV SERVICES ----------------------------------------------------*/
+/*------------------------------------------------------------NAV SERVICES----------------------------------------------------*/
 .servicesXl {
   font-family: "Syncopate", sans-serif;
   font-weight: 400;
@@ -84,7 +86,7 @@ body {
   font-size: 16px;
 }
 
-/*------------------------------------------------------------NAV SKILLS ----------------------------------------------------*/
+/*------------------------------------------------------------NAV SKILLS----------------------------------------------------*/
 .skillsXl {
   font-family: "Syncopate", sans-serif;
   font-weight: 400;
@@ -103,8 +105,7 @@ body {
   font-size: 16px;
 }
 
-/*------------------------------------------------------------NAV CONTACT ----------------------------------------------------*/
-
+/*------------------------------------------------------------NAV CONTACT----------------------------------------------------*/
 .contactXl {
   font-family: "Syncopate", sans-serif;
   font-weight: 400;
@@ -122,7 +123,6 @@ body {
   font-weight: 400;
   font-size: 16px;
 }
-
 /*------------------------------------------------------- NAVPROFILE ---------------------------------------------------------*/
 
 /*https://www.youtube.com/watch?v=lRPguPbovro*/
@@ -168,6 +168,44 @@ nav {
 
 /*------------------------------------------------------- PROFILE ---------------------------------------------------------*/
 
+@keyframes slideDown {
+  from {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+#myNameXl {
+  animation-name: slideDown;
+  animation-duration: 6s;
+  animation-timing-function: ease;
+}
+#myNameMd {
+  animation-name: slideDown;
+  animation-duration: 6s;
+  animation-timing-function: ease;
+}
+#myNameSm {
+  animation-name: slideDown;
+  animation-duration: 6s;
+  animation-timing-function: ease;
+}
+
 #profile {
   color: rgb(13, 66, 76);
   font-family: "Syncopate", sans-serif;
@@ -183,6 +221,10 @@ nav {
   font-family: "Montserrat", sans-serif;
   font-weight: 100;
   font-size: 90px;
+  font-size: 80px;
+  animation-name: slideUp;
+  animation-duration: 6s;
+  animation-timing-function: ease;
 }
 
 #profileImage {
@@ -508,10 +550,6 @@ nav {
 
 /*------------------------------------------------------- SERVICES ---------------------------------------------------------*/
 
-#services {
-  color: rgb(5, 63, 63);
-}
-
 .servicesContainer {
   background-image: url("./assets/servicesBackground.svg");
   background-size: cover;
@@ -591,4 +629,32 @@ footer {
 #logoContainerLinkedin img {
   width: 80px;
   height: auto;
+}
+
+#submitButton {
+  background-color: #33cc22;
+  border: 2px solid rgb(228, 219, 36);
+  color: #f6fff7;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  border-radius: 20px;
+  transition: border-radius 1s ease;
+}
+
+#submitButton:hover {
+  background-color: rgb(228, 219, 36);
+  border: 2px solid #33cc22;
+  color: #010a02;
+  border-radius: 4px;
+}
+
+.inputName {
+  border: 2px solid rgb(50, 149, 10);
+}
+
+.inputEmail {
+  border: 2px solid rgb(50, 149, 10);
+}
+.inputMessage {
+  border: 2px solid rgb(50, 149, 10);
 }
