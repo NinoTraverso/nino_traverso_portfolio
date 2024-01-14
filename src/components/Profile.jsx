@@ -10,7 +10,7 @@ function Profile() {
       <div id="imageContainer" className="pb-0 mb-0 d-block d-xl-none">
         <img
           id="profileImage"
-          src="/assets/testingOpacity.png"
+          src="/assets/profileImage.png"
           alt="profileImage"
         ></img>
       </div>
