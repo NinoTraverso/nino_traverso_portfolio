@@ -3,7 +3,7 @@
 ###
 
 <p align="left">This is my personal portfolio project built using React. It showcases my projects, skills, and services.</p>
-<img src="./public/assets/portfolioHover.jpg" height="200" alt="protfolioImage">
+<img src="./public/assets/portfolioHover.jpg" height="400" alt="protfolioImage">
 
 ###
 
