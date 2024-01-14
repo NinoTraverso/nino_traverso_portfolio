@@ -228,9 +228,14 @@ nav {
   animation-timing-function: ease;
 }
 
+#imageContainer {
+  max-width: 90%;
+}
+
 #profileImage {
   width: 500px;
   height: auto;
+  max-width: 90%;
 }
 
 #profession #myNameXl {
