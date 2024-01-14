@@ -152,6 +152,7 @@ nav {
   color: #013761;
   font-family: "Syncopate", sans-serif;
   font-weight: 400;
+  max-width: 100%;
 }
 
 .navbarSections {
