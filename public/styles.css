@@ -488,3 +488,13 @@ footer {
 #infoContainer {
   height: 500px;
 }
+
+#infoTextContainer h1 {
+  font-family: "Syncopate", sans-serif;
+  font-weight: 700;
+}
+
+#infoTextContainer h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
