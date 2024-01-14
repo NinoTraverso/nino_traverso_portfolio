@@ -56,12 +56,12 @@ function Contact() {
       >
         <p className="mt-3">&copy; {currentYear} - CometByte</p>
         <div id="logoContainerGithub" className="ms-3">
-          <a href="https://www.google.com/">
+          <a href="https://github.com/NinoTraverso">
             <img src="/assets/logoGithub.png" alt="githubLogo" />
           </a>
         </div>
         <div id="logoContainerLinkedin" className="ms-1 me-3">
-          <a href="https://www.google.com/">
+          <a href="https://www.linkedin.com/in/ninotraverso-developer-astronomy-planetarysciences/">
             <img src="/assets/logoLinkedin.png" alt="linkedinLogo" />
           </a>
         </div>
