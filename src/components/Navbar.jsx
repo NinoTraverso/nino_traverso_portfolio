@@ -1,14 +1,6 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
 
 function Navbar() {
-  function MyComponent() {
-    const projectsRef = useRef(null);
-
-    useEffect(() => {
-      projectsRef.current.scrollIntoView({ behavior: "smooth" });
-    }, []);
-  }
-
   return (
     <nav id="navbar" className="py-5 mx-2">
       <div className="d-flex flex-column flex-xl-row justify-content-between align-items-center">
@@ -23,29 +15,17 @@ function Navbar() {
         <div className="navbarSections d-flex flex-row justify-content-center align-items-center pt-2 px-1 mt-5 mt-xl-2 rounded">
           {/* ---------------------------------------------------------------------------PROJECTS--------------------------------------------------------------- */}
           <h2 className="projectsXl px-4 d-none d-xl-block">
-            <a
-              className="text-decoration-none text-dark"
-              href={MyComponent.projectsRef}
-              id="projects"
-            >
+            <a className="text-decoration-none text-dark" href="#projects">
               Projects
             </a>
           </h2>
           <h2 className="projectsMd px-2 d-none d-md-block d-xl-none">
-            <a
-              className="text-decoration-none text-dark"
-              href={MyComponent.projectsRef}
-              id="projects"
-            >
+            <a className="text-decoration-none text-dark" href="#projects">
               Projects
             </a>
           </h2>
           <h2 className="projectsSm px-3 d-block d-md-none">
-            <a
-              className="text-decoration-none text-dark"
-              href={MyComponent.projectsRef}
-              id="projects"
-            >
+            <a className="text-decoration-none text-dark" href="#projects">
               Projects
             </a>
           </h2>
