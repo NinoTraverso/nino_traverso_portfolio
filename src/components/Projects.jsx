@@ -21,19 +21,19 @@ function createProjectCard(project) {
 
 function Projects() {
   return (
-    <div className="mt-5">
-      <h1 id="projects" className="sectionTitle d-none d-xl-block">
+    <div>
+      <h1 id="projects" className="sectionTitle d-none d-xl-block mt-5">
         PROJECTS
       </h1>
       <h1
         id="projects"
-        className="sectionTitleMedium d-none d-md-block d-xl-none text-center"
+        className="sectionTitleMedium d-none d-md-block d-xl-none text-center mt-5"
       >
         PROJECTS
       </h1>
       <h1
         id="projects"
-        className="sectionTitleSmall d-block d-md-none text-center"
+        className="sectionTitleSmall d-block d-md-none text-center mt-5"
       >
         PROJECTS
       </h1>

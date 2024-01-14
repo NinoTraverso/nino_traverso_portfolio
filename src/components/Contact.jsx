@@ -6,19 +6,25 @@ function Contact() {
 
   return (
     <footer className="d-flex flex-column justify-content-end mt-5">
-      <h1 id="projects" className="sectionTitle d-none d-xl-block">
-        CONTACT
-      </h1>
       <h1
-        id="projects"
-        className="sectionTitleMedium d-none d-md-block d-xl-none"
+        id="contact"
+        className="sectionTitle d-none d-xl-block align-self-end"
       >
         CONTACT
       </h1>
-      <h1 id="projects" className="sectionTitleSmall d-block d-md-none">
+      <h1
+        id="contact"
+        className="sectionTitleMedium d-none d-md-block d-xl-none text-center"
+      >
         CONTACT
       </h1>
-      <div className="d-flex flex-column flex-xl-row align-items-center mt-5">
+      <h1
+        id="contact"
+        className="sectionTitleSmall d-block d-md-none text-center"
+      >
+        CONTACT
+      </h1>
+      <div className="d-flex flex-column flex-xl-row align-items-center mt-5 mb-5">
         <div className="w-75 mx-5 mt-3 mb-5">
           <ContactUs />
         </div>
@@ -35,21 +41,31 @@ function Contact() {
           >
             <h1 className="">ABOUT ME</h1>
             <h4 className="me-5">
-              Hey there! I'm a passionate full-stack developer who thrives on
-              continuous learning. The dynamic world of web development and
-              design fuels my excitement for creating innovative solutions and
-              tackling new challenges daily. I love bringing ideas to life and
-              enhancing my tech knowledge. Beyond coding, I'm also a passionate
-              Astronomer, reason why I chose this was one of my Capstone
-              projects. I like working on different projects and topics; not
-              only it aids my development skills but also allows me to learn new
-              things in different fields.
+              I became a full-stack developer because I love bringing to life
+              ideas and creating innovative web solutions while tackling new
+              challenges daily. I like working on different projects and topics;
+              not only it aids my development skills but also allows me to learn
+              new things in different fields.
             </h4>
           </div>
         </div>
       </div>
-
-      <p>&copy; {currentYear} CometByte</p>
+      <div
+        id="footerEndContainer"
+        className="d-flex flex-row justify-content-center align-items-center mt-5"
+      >
+        <p className="mt-3">&copy; {currentYear} - CometByte</p>
+        <div id="logoContainerGithub" className="ms-3">
+          <a href="https://www.google.com/">
+            <img src="/assets/logoGithub.png" alt="githubLogo" />
+          </a>
+        </div>
+        <div id="logoContainerLinkedin" className="ms-1 me-3">
+          <a href="https://www.google.com/">
+            <img src="/assets/logoLinkedin.png" alt="linkedinLogo" />
+          </a>
+        </div>
+      </div>
     </footer>
   );
 }

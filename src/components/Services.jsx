@@ -24,16 +24,20 @@ function Services() {
         <h1 id="services" className="sectionTitle d-none d-xl-block">
           SERVICES
         </h1>
-        <h1
-          id="services"
-          className="sectionTitleMedium d-none d-md-block d-xl-none"
-        >
-          SERVICES
-        </h1>
-        <h1 id="services" className="sectionTitleSmall d-block d-md-none">
-          SERVICES
-        </h1>
       </div>
+      <h1
+        id="services"
+        className="sectionTitleMedium d-none d-md-block d-xl-none text-center"
+      >
+        SERVICES
+      </h1>
+      <h1
+        id="services"
+        className="sectionTitleSmall d-block d-md-none text-center"
+      >
+        SERVICES
+      </h1>
+
       <div className="row mb-5 servicesContainer mx-0">
         {services.map(createServiceCard)}
       </div>

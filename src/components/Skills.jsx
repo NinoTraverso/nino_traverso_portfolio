@@ -3,20 +3,24 @@ import React from "react";
 function Skills() {
   return (
     <div>
-      <div className="d-flex justify-content-start">
-        <h1 id="skills" className="sectionTitle d-none d-xl-block">
-          SKILLS
-        </h1>
-        <h1
-          id="skills"
-          className="sectionTitleMedium d-none d-md-block d-xl-none"
-        >
-          SKILLS
-        </h1>
-        <h1 id="skills" className="sectionTitleSmall d-block d-md-none">
-          SKILLS
-        </h1>
-      </div>
+      <h1
+        id="skills"
+        className="sectionTitle d-none d-xl-block align-self-start"
+      >
+        SKILLS
+      </h1>
+      <h1
+        id="skills"
+        className="sectionTitleMedium d-none d-md-block d-xl-none text-center"
+      >
+        SKILLS
+      </h1>
+      <h1
+        id="skills"
+        className="sectionTitleSmall d-block d-md-none text-center"
+      >
+        SKILLS
+      </h1>
       <div>
         <div
           id="skillsIcons"
