@@ -66,7 +66,7 @@ body {
 .projectsSm {
   font-family: "Syncopate", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 12px;
 }
 /*------------------------------------------------------------NAV SERVICES----------------------------------------------------*/
 .servicesXl {
@@ -84,7 +84,7 @@ body {
 .servicesSm {
   font-family: "Syncopate", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 /*------------------------------------------------------------NAV SKILLS----------------------------------------------------*/
@@ -103,7 +103,7 @@ body {
 .skillsSm {
   font-family: "Syncopate", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 /*------------------------------------------------------------NAV CONTACT----------------------------------------------------*/
@@ -122,7 +122,7 @@ body {
 .contactSm {
   font-family: "Syncopate", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 12px;
 }
 /*------------------------------------------------------- NAVPROFILE ---------------------------------------------------------*/
 
@@ -152,7 +152,6 @@ nav {
   color: #013761;
   font-family: "Syncopate", sans-serif;
   font-weight: 400;
-  max-width: 100%;
 }
 
 .navbarSections {
