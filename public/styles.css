@@ -139,7 +139,6 @@ body {
   z-index: -1;
   inset: 0;
   opacity: var(--bg-image-opacity);
-
   background-image: var(--bg-image);
   -webkit-mask-image: linear-gradient(to top, transparent 20%, black 55%);
   mask-image: linear-gradient(to top, transparent 10%, black 75%);
@@ -176,10 +175,6 @@ nav {
   padding-top: 120px;
 }
 
-#profession {
-  width: 50%;
-}
-
 #profession h1 {
   font-size: 80px;
 }
@@ -195,8 +190,16 @@ nav {
   height: auto;
 }
 
-#myName {
+#profession #myNameXl {
   z-index: 1;
+}
+#profession #myNameMd {
+  z-index: 1;
+  font-size: 80px;
+}
+#profession #myNameSm {
+  z-index: 1;
+  font-size: 60px;
 }
 
 #professionList {

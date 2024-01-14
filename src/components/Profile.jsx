@@ -16,9 +16,15 @@ function Profile() {
       </div>
       <div
         id="profession"
-        className="d-flex flex-column justify-content-center mt-0 "
+        className="col-12 col-xl-6 d-flex flex-column justify-content-center mt-0"
       >
-        <h1 id="myName" className="text-center">
+        <h1 id="myNameXl" className="d-none d-xl-block text-center">
+          NINO J. TRAVERSO
+        </h1>
+        <h1 id="myNameMd" className="d-none d-md-block d-xl-none text-center">
+          NINO J. TRAVERSO
+        </h1>
+        <h1 id="myNameSm" className="d-block d-md-none text-center">
           NINO J. TRAVERSO
         </h1>
         <div id="professionList" className="text-center mx-0">
