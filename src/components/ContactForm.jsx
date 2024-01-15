@@ -41,18 +41,21 @@ export const ContactUs = () => {
           type="text"
           name="user_name"
           placeholder="  Your name"
+          required
         />
         <input
           className="inputEmail w-50 my-4 rounded"
           type="email"
           name="user_email"
           placeholder="  Your email"
+          required
         />
         <textarea
           className="inputMessage w-75 my-4 rounded"
           name="message"
           maxLength="500"
           placeholder="  Write your message..."
+          required
         />
 
         <input
