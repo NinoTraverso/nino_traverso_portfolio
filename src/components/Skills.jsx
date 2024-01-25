@@ -87,7 +87,7 @@ function Skills() {
           </div>
 
           <div className="col col-12 col-md-6 col-lg-4 col-xl-3 py-5">
-            <i className="devicon-python-plain-wordmark colored"></i>
+            <i class="devicon-github-original colored"></i>
           </div>
         </div>
       </div>
