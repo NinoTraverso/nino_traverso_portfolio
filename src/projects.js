@@ -10,10 +10,10 @@ const projects = [
   {
     id: 2,
     name: "cutzNtrimz",
-    img: "/assets/theNordicBarberHover.jpg",
+    img: "/assets/cutzNtrimzHover.jpg",
     description:
       "Currently under development - a website for a barber shop located in Reykjavik. The website will have four sections: home , services and produts showing the different services offered by the barber as well as the variety of products he sells in his shop, and info.",
-    projectLink: "https://github.com/NinoTraverso/TheNordicBarber",
+    projectLink: "https://github.com/NinoTraverso/cutzNtrimz",
   },
 
   {
