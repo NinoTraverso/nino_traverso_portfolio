@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <nav id="navbar" className="py-5 mx-2">
+    <nav id="navbar" className="py-5 mx-2 d-none d-md-block">
       <div className="d-flex flex-column flex-xl-row justify-content-between align-items-center">
         <div className="ms-xl-3">
           <img
