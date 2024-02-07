@@ -12,7 +12,7 @@ function Navbar() {
             className="rounded-pill"
           ></img>
         </div>
-        <div className="navbarSections d-flex flex-row justify-content-center align-items-center pt-2 px-1 mt-5 mt-xl-2 rounded">
+        <div className="navbarSections d-none d-xl-flex flex-row justify-content-center align-items-center pt-2 px-1 mt-5 mt-xl-2 rounded">
           {/* ---------------------------------------------------------------------------PROJECTS--------------------------------------------------------------- */}
           <h2 className="projectsXl px-4 d-none d-xl-block">
             <a className="text-decoration-none text-dark" href="#projects">
