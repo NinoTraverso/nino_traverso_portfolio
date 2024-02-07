@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <nav id="navbar" className="py-5 mx-2 d-none d-md-block">
+    <nav id="navbar" className="py-5 mx-2 ">
       <div className="d-flex flex-column flex-xl-row justify-content-between align-items-center">
         <div className="ms-xl-3">
           <img
@@ -12,7 +12,7 @@ function Navbar() {
             className="rounded-pill"
           ></img>
         </div>
-        <div className="navbarSections d-flex flex-row justify-content-center align-items-center pt-2 px-1 mt-5 mt-xl-2 rounded">
+        <div className="navbarSections d-flex flex-row justify-content-center align-items-center pt-2 px-1 mt-5 mt-xl-2 rounded d-none d-md-block">
           {/* ---------------------------------------------------------------------------PROJECTS--------------------------------------------------------------- */}
           <h2 className="projectsXl px-4 d-none d-xl-block">
             <a className="text-decoration-none text-dark" href="#projects">
