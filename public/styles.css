@@ -80,6 +80,24 @@ body {
   }
 }
 
+@media screen and (max-width: 400px) {
+  .projectName {
+    margin-top: 12px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .projectDetails {
+    font-size: 18px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .projectButton {
+    font-size: 22px !important;
+  }
+}
+
 /*------------------------------------------------------------NAV PROJECTS----------------------------------------------------*/
 .projectsXl {
   font-family: "Syncopate", sans-serif;
@@ -593,6 +611,7 @@ nav {
 .projectName {
   font-family: "Syncopate", sans-serif;
   font-weight: 700;
+  margin-top: 12px;
 }
 
 .projectDetails {
