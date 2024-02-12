@@ -74,6 +74,12 @@ body {
   }
 }
 
+@media screen and (max-width: 400px) {
+  #copyRight {
+    font-size: 12px !important;
+  }
+}
+
 /*------------------------------------------------------------NAV PROJECTS----------------------------------------------------*/
 .projectsXl {
   font-family: "Syncopate", sans-serif;

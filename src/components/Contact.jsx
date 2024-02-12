@@ -52,19 +52,26 @@ function Contact() {
       </div>
       <div
         id="footerEndContainer"
-        className="d-flex flex-row justify-content-center align-items-center mt-5"
+        className="d-flex flex-column flex-sm-row justify-content-center align-items-center mt-5"
       >
-        <p className="mt-3">&copy; {currentYear} - CometByte</p>
-        <div id="logoContainerGithub" className="ms-3">
-          <a href="https://github.com/NinoTraverso">
-            <img src="/assets/logoGithub.png" alt="githubLogo" />
-          </a>
+        <p className="d-none d-sm-block mt-3">
+          &copy; {currentYear} - CometByte
+        </p>
+        <div className="d-flex flex-row align-items-center">
+          <div id="logoContainerGithub" className="ms-3">
+            <a href="https://github.com/NinoTraverso">
+              <img src="/assets/logoGithub.png" alt="githubLogo" />
+            </a>
+          </div>
+          <div id="logoContainerLinkedin" className="ms-1 me-3">
+            <a href="https://www.linkedin.com/in/ninotraverso-developer-astronomy-planetarysciences/">
+              <img src="/assets/logoLinkedin.png" alt="linkedinLogo" />
+            </a>
+          </div>
         </div>
-        <div id="logoContainerLinkedin" className="ms-1 me-3">
-          <a href="https://www.linkedin.com/in/ninotraverso-developer-astronomy-planetarysciences/">
-            <img src="/assets/logoLinkedin.png" alt="linkedinLogo" />
-          </a>
-        </div>
+        <p className="d-block d-sm-none mt-3">
+          &copy; {currentYear} - CometByte
+        </p>
       </div>
     </footer>
   );
