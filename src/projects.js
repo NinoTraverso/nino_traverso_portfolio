@@ -48,7 +48,7 @@ const projects = [
     name: "Poste Lente",
     img: "/assets/posteLenteHover.jpg",
     description:
-      "Application for a post office to Create packages, Read the list of packages, Update package status and, if needed, Delete some of the packages - CRUD. This applicatio also uses relational database so the packages can be associated with clients.",
+      "Application for a post office to Create packages, Read the list of packages, Update package status and, if needed, Delete some of the packages - CRUD. This application also uses relational database so the packages can be associated with clients.",
     projectLink:
       "https://github.com/NinoTraverso/Backend---U2---W6---D4---Poste",
   },
@@ -76,7 +76,7 @@ const projects = [
     name: "Spotify Clone",
     img: "/assets/spotifyCloneHover.jpg",
     description:
-      "GROUP PROJECT - Clone of the famous Spotify application allowing a user to search for artists and albums, as well as listen to the first 30 seconds of the select song thanks to the functional player. We were five people in total and had five days to develop the project.",
+      "GROUP PROJECT - Clone of the famous Spotify application allowing a user to search for artists and albums, as well as listen to the first 30 seconds of the selected song thanks to the functional player. We were five people in total and had five days to develop the project.",
     projectLink: "https://github.com/NinoTraverso/Buildweek-Spotify",
   },
   {
