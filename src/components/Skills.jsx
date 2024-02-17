@@ -67,23 +67,7 @@ function Skills() {
           </div>
 
           <div className="col col-12 col-md-6 col-lg-4 col-xl-3 py-5">
-            <i className="devicon-sass-original colored"></i>
-          </div>
-
-          <div className="col col-12 col-md-6 col-lg-4 col-xl-3 py-5">
             <i className="devicon-figma-plain colored"></i>
-          </div>
-
-          <div className="col col-12 col-md-6 col-lg-4 col-xl-3 py-5">
-            <i className="devicon-nodejs-plain-wordmark colored"></i>
-          </div>
-
-          <div className="col col-12 col-md-6 col-lg-4 col-xl-3 py-5">
-            <i className="devicon-angularjs-plain colored"></i>
-          </div>
-
-          <div className="col col-12 col-md-6 col-lg-4 col-xl-3 py-5">
-            <i className="devicon-typescript-plain colored"></i>
           </div>
 
           <div className="col col-12 col-md-6 col-lg-4 col-xl-3 py-5">
