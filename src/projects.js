@@ -73,11 +73,11 @@ const projects = [
   },*/
   {
     id: 8,
-    name: "Spotify Clone",
-    img: "/assets/spotifyCloneHover.jpg",
+    name: "Exoplore",
+    img: "/assets/exoploreHover.jpg",
     description:
-      "GROUP PROJECT - Clone of the famous Spotify application allowing a user to search for artists and albums, as well as listen to the first 30 seconds of the selected song thanks to the functional player. We were five people in total and had five days to develop the project.",
-    projectLink: "https://github.com/NinoTraverso/Buildweek-Spotify",
+      "For this project I used the Nasa API for exoplanets, which I used to create an informative yet simple website on the exoplanet theme, with a page home page giving insights on exoplanets, a page to view the list of all exoplanets with their relevant data, and a page for the project info.",
+    projectLink: "https://exoplore.vercel.app",
   },
   {
     id: 9,
@@ -87,6 +87,16 @@ const projects = [
       "GROUP PROJECT - Web application to maintain a veterinarian shop, two private log in sections for veterinarians and doctors. The web app uses a relational database so doctors and veterinarian can mange the whole database of hospitalized or chip registered animals.",
     projectLink: "https://github.com/NinoTraverso/TheLastBuildWeek",
   },
+  /* 
+  {
+    id: 10,
+    name: "Spotify Clone",
+    img: "/assets/spotifyCloneHover.jpg",
+    description:
+      "GROUP PROJECT - Clone of the famous Spotify application allowing a user to search for artists and albums, as well as listen to the first 30 seconds of the selected song thanks to the functional player. We were five people in total and had five days to develop the project.",
+    projectLink: "https://github.com/NinoTraverso/Buildweek-Spotify",
+  },
+  */
 ];
 
 export default projects;
