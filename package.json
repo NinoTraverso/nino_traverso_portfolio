@@ -1,11 +1,6 @@
 {
   "name": "nino_traverso_portfolio",
   "version": "0.1.0",
-  "overrides": {
-    "nth-check": "2.0.1",
-    "postcss": "^8.4.31",
-    "ws": "8.17.1"
-  },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@testing-library/jest-dom": "^6.6.2",
